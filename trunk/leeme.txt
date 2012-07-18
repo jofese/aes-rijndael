@@ -1,0 +1,21 @@
+Darío López Padial y César Aguilera Padilla
+Algoritmo AES estándar (bloques de 128 bits; claves de 128, 192 o 256 bits).
+Modo de Operación: ECB.
+
+Antes de nada, preparamos las tablas que vamos a usar en AES:
+$ ./genera_tablas.py
+
+Ejemplo de Ejecución 1:
+$ ./aes.py -c <fichero> -k <fichero_clave> -s <fichero_cifrado>
+$ ./aes.py -d <fichero_cifrado> -k <fichero_clave> -s <fichero_descifrado>
+
+Notas:
+<fichero_clave> es un fichero que aloja la clave en formato hexadecimal.
+Esta clave puede ser de un tamaño de 128, 192 o 256 bits. Un ejemplo de fichero son clave128, clave192 y clave256.
+
+Ejemplo de Ejecución 2:
+$ ./aes.py -c <fichero> -s <fichero_cifrado>
+$ ./aes.py -d <fichero_cifrado> -s <fichero_descifrado>
+
+Notas:
+En esta ocasión la contraseña será pedida al usuario y no tiene porque ser introducida en formato hexadecimal, sino que vale cualquier contraseña, por ejemplo "pepe".
