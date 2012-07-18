@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-	Algoritmo de Cifrado/Descifrado AES
+    Algoritmo de Cifrado/Descifrado AES
     Copyright (C) 2012 Darío López Padial y César Aguilera 
     @bukosabino
     @Cs4r

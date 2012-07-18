@@ -1,4 +1,4 @@
-Darío López Padial y César Aguilera Padilla
+Darío López Padial y César Aguilera
 Algoritmo AES estándar (bloques de 128 bits; claves de 128, 192 o 256 bits).
 Modo de Operación: ECB.
 
